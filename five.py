@@ -13,7 +13,9 @@ if x>y :
 		print(z)
 elif y>z:
 	print(y)
-else:
+elif z>y:
 	print(z)
+else:
+	print("all are equal")
 
 
