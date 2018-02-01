@@ -3,7 +3,9 @@ x=int(input(""))
 if x<0:
 	print("enter positive integer")
 else:
-	if x%2==0:
+	if x==2:
+		print("yes")
+	elif x%2==0:
 		print("no")
 	else:
 		for a in range(3,(x//2)+1):
@@ -13,4 +15,3 @@ else:
 				break;
 		if m==0:
 			print("yes")
-		
